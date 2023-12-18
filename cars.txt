@@ -1,0 +1,17 @@
+cars
+
+id - INT - UNISIGNED - PRIMARY_KEY - AUTOINCREMENT
+model - VARCHAR(255) - NOTNULL
+brand - VARCHAR(255) - NOTNULL
+registration_year - YEAR - NOTNULL
+km_travelled - DOUBLE(6,3) - NOTNULL
+color - VARCHAR(255) - NOTNULL
+price - DECIMAL(7,3) - NOTNULL
+photo - VARCHAR(255) - NULL
+conditions - TEXT - NOTNULL
+discount_percent - DECIMAL(5,2) - NOTNULL - DEFAULT(0)
+is_automatic - TINYINT - NOTNULL - DEFAULT(0) 
+type_of_fuel - VARCHAR(255) - NOTNULL
+equipment - VARCHAR(255) - NULL
+kW_power - SMALLINT - NOTNULL
+doors_n - TINYINT - NOTNULL
